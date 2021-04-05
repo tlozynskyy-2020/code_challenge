@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Krieger_Code_Challenge(failed)">
+    <classes>
+      <class name="krieger.tests.suite.VerifyConfirmationText">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="TestConfirmationText"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- krieger.tests.suite.VerifyConfirmationText -->
+    </classes>
+  </test> <!-- Krieger_Code_Challenge(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
